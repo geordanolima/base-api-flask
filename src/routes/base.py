@@ -1,5 +1,5 @@
-from src.rotes.health import Healthcheck, HealthcheckError
-from src.rotes.v1.user import User
+from src.routes.health import Healthcheck, HealthcheckError
+from src.routes.v1.user import User
 
 
 class Rotes():

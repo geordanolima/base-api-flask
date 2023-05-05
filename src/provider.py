@@ -6,7 +6,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
 from src.core.settings import Settings
-from src.rotes.base import Rotes
+from src.routes.base import Rotes
 
 
 class Provider(Settings):
