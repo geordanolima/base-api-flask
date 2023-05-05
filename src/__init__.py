@@ -1,9 +1,4 @@
 from src.provider import Provider
-
-__all__ = [
-    'main'
-]
-
 main = Provider()
 
 db = main.db
