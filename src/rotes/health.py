@@ -3,6 +3,7 @@ from src.utils.errors import Errors
 
 
 class Healthcheck(Resource):
+
     def get(self):
         """
         Metodo para validar se a API está disponível util para algum serviço de monitoria.
@@ -14,6 +15,7 @@ class Healthcheck(Resource):
 
 
 class HealthcheckError(Resource):
+
     def get(self):
         """ Metodo para validar se a API está retornando erros corretamente util para algum serviço de monitoria.
 

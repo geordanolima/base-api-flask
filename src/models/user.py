@@ -19,8 +19,6 @@ class Base(db.Model):
 
 
 class UserModel(Base):
-    """Model Auth Users
-    """
 
     __tablename__ = "auth_user"
     __table_args__ = {'extend_existing': True}
@@ -31,6 +29,7 @@ class UserModel(Base):
 
 
 class UserSchema(ma.Schema):
+
     class Meta:
         unknown = EXCLUDE
         fields = ('id', 'name', 'email', 'status')

@@ -13,8 +13,6 @@ class Settings:
 
     @staticmethod
     def load_variables():
-        """Sets up configuration for the app
-        """
         return {
             "HOST": environ.get("HOST", "0.0.0.0"),
             "PORT": environ.get("PORT", 5000),
